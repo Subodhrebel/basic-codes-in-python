@@ -1,0 +1,6 @@
+def remove_duplicates(arr):
+    return list(set(arr))  # Convert to set to remove duplicates, then back to list
+
+# Example usage:
+arr = [1, 2, 2, 3, 4, 4, 5]
+print(remove_duplicates(arr))  # Output: [1, 2, 3, 4, 5]
