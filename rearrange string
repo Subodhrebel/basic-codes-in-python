@@ -1,0 +1,7 @@
+def rearrange(string):
+    return ' '.join (sorted(string , reverse = True))
+
+if __name__ == "__main__":
+    string = "subodh" 
+    result = rearrange(string)
+    print (result)
