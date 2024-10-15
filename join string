@@ -1,0 +1,8 @@
+def strings(joint):
+    return " ".join(joint)
+
+
+if __name__ == "__main__":
+    joint = ["subodh" ,"goog" ,"boys"]
+    result = strings(joint)
+    print (result)
