@@ -1,0 +1,6 @@
+ef top_k_largest(arr, k):
+    arr.sort()  # Sort in descending order
+    return arr[:k]  # Return the first k elements
+arr = [3, 1, 5, 4, 2]
+k = 3
+print(top_k_largest(arr, k))  # Output: [5, 4, 3]
