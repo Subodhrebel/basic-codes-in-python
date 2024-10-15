@@ -1,0 +1,10 @@
+def reverse(string):
+    words = string.split()
+    reversed = words[::-1]
+    return ' '.join(reversed)
+
+
+if __name__ == "__main__":
+    string = "hello i am subodh kumar"
+    result = reverse(string)
+    print(result)
