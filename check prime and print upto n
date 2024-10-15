@@ -1,0 +1,20 @@
+def isprime(num):
+    for n in range(2,int(num**0.5)+1):
+        if num%n==0:
+            return False
+    return True
+
+def prime_numbers_upto(n):
+    primes = []
+    for num in range(2, n + 1):
+        if isprime(num):
+            primes.append(num)
+    return primes
+
+if __name__ == "__main__":
+    num = 5
+    n= 10
+    result = isprime(num)
+    print (result)
+    upto = prime_numbers_upto(n)
+    print ("prine number is " ,upto )
