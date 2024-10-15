@@ -1,0 +1,11 @@
+from collections import Counter
+def count(arr):
+
+    return Counter(arr)
+
+if __name__== "__main__":
+    arr=[2,5,6,3,8,9,1,2,3]
+    counted = count(arr)
+    total = len(arr)
+    print(counted)
+    print(total)
