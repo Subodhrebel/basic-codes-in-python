@@ -1,0 +1,8 @@
+def missing(n , num):
+    total_num = sum(num)
+    expected = (n*(n+1))//2
+    return expected - total_num
+
+num = [5,6,7,9]
+n=5
+print (missing(n,num))
