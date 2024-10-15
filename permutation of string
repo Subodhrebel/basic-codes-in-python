@@ -1,0 +1,12 @@
+from itertools import permutations
+
+def permutation(s):
+    
+    subodh = set(permutations(s)) 
+    return len(subodh)
+    
+if __name__ == "__main__":
+    
+    s = input("Enter a string: ") 
+    result = permutation(s)
+    print(result)
