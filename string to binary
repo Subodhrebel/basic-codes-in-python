@@ -1,0 +1,6 @@
+def string_to_binary(s):
+    return ''.join(format(ord(char), 'b') for char in s)
+
+# Example usage
+input_string = input("Enter a string: ")
+print(string_to_binary(input_string))
