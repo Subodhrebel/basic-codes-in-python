@@ -1,0 +1,16 @@
+def findDuplicates(nums):
+    duplicates = []
+    seen = []
+    
+    for num in nums:
+        if num in seen:
+            if num not in duplicates:
+                duplicates.append(num)
+        else:
+            seen.append(num)
+    
+    return duplicates
+
+# Example usage
+nums = [1, 2, 3, 2, 4, 5, 5]
+print(findDuplicates(nums))  # Output: [2, 5]
