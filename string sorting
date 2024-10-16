@@ -1,0 +1,10 @@
+def sorted_str(string):
+    words = string.split()
+    sorteed = sorted(words)
+    return ' ' .join(sorteed)
+
+if __name__ == "__main__":
+    string = "my name is subodh"
+    result = sorted_str(string)
+    print (result)
+    
