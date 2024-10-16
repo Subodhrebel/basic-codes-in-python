@@ -1,0 +1,7 @@
+def ascending(arr):
+    arr.sort()
+    return arr
+if __name__ == "__main__":
+    arr =[2,5,6,4,8,3,5]
+    sorted_arr = ascending(arr)
+    print (ascending(sorted_arr))
